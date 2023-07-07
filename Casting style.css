@@ -402,6 +402,16 @@ input:checked + .slider:before {
 
 }
 .batch li input{
+  display: flex;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 0px 3px 0.1px rgba(0,0,0,0.75);
+    outline: none;
+    padding: 2px;
+    margin: 0px auto;
+
+}
+.date , .gold, .order, .department , .batch li select{
   border-radius: 6px;
   border: none;
   box-shadow: 0px 0px 3px 0.1px rgba(0,0,0,0.75);
@@ -409,13 +419,10 @@ input:checked + .slider:before {
   outline: none;
   padding: 2px;
 }
-.date , .batch li select{
-  border-radius: 6px;
-  border: none;
-  box-shadow: 0px 0px 3px 0.1px rgba(0,0,0,0.75);
-  /* outline-style: hidden; */
-  outline: none;
-  padding: 2px;
+
+.gold, .order{
+  display: flex;
+  width: 100px;
 }
 
 

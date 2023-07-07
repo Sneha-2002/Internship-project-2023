@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title> Shopfloor visibilty software </title>
     <link rel="stylesheet" href="dashboard style.css">
+    <link rel="stylesheet" href="Casting style.css">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -106,7 +107,7 @@
           <div class="right-side">
             <div class="box-topic">Date</div>
             <div class="number"><p>
-              <input type ="date" name = "Date" value="Date" >
+              <input class="date" type ="date" name = "Date" value="Date" >
 
             </p></div>
            <div class="indicator">
@@ -120,7 +121,7 @@
           <div class="right-side">
             <div class="box-topic">Total Orders</div>
             <div class="number"><p>
-              <input type="Number" name="orders" value="orders">
+              <input class="order" type="Number" name="orders" value="orders">
             </p></div>
             <div class="indicator">
             <!--  <i class='bx bx-up-arrow-alt'></i>-->
@@ -133,7 +134,7 @@
           <div class="right-side">
             <div class="box-topic">Total Gold</div>
             <div class="number"><p>
-              <input type="text" name="gold" value="">
+              <input class="gold" type="text" name="gold" value="">
             </p></div>
             <div class="indicator">
             <!--  <i class='bx bx-up-arrow-alt'></i>
@@ -173,6 +174,7 @@
             </ul>
             <ul class="details">
             <li class="topic">Department</li>
+            <div class="batch">
             <li>
               <select class="department" name="department">
                 <option value="">--Select Department--</option>
@@ -433,10 +435,12 @@
 
               </select>
             </li>
+            </div>
 
           </ul>
           <ul class="details">
             <li class="topic">Gold Intake</li>
+            <div class="batch">
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
@@ -447,9 +451,11 @@
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
+            </div>
           </ul>
           <ul class="details">
             <li class="topic">Pieces Generated</li>
+            <div class="batch">
             <li><input type="text" name="Generated" value="" maxlength="4" size="4"></li>
             <li><input type="text" name="Generated" value="" maxlength="4" size="4"></li>
             <li><input type="text" name="Generated" value="" maxlength="4" size="4"></li>
@@ -460,10 +466,11 @@
             <li><input type="text" name="Generated" value="" maxlength="4" size="4"></li>
             <li><input type="text" name="Generated" value="" maxlength="4" size="4"></li>
             <li><input type="text" name="Generated" value="" maxlength="4" size="4"></li>
-
+            </div>
           </ul>
           <ul class="details">
             <li class="topic">Gold Discharge</li>
+            <div class="batch">
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
@@ -474,6 +481,7 @@
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
             <li><input type="text" name="gold_intake" value="" maxlength="6" size="6"></li>
+            </div>
           </ul>
           </div>
           <div class="button">
